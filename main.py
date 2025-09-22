@@ -1,8 +1,8 @@
 from board import Board
 from player import Player
 
-class TicTacToeGame:
 
+class TicTacToeGame:
 
     def start(self):
         print('**************************')
@@ -55,6 +55,7 @@ class TicTacToeGame:
         print('*************')
         board.reset_board()
         board.print_board()
+
 
 game = TicTacToeGame()
 game.start()
